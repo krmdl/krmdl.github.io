@@ -7,8 +7,9 @@ A responsive portfolio for POLIDIV, showcasing Unity environments and modular 3D
 - `index.html` — page content and metadata
 - `styles.css` — responsive styling and decorative geometric artwork
 - `favicon.svg` — site icon
+- `assets/` — four authentic Abandoned Hospital renders: demo scene, modular architecture, medical props, and LOD workflow
 
-The site uses plain HTML and CSS, with no build step, external fonts, tracking, or third-party libraries. The abstract room graphics are decorative and are not renders of the Abandoned Hospital asset pack.
+The site uses plain HTML and CSS, with no build step, external fonts, tracking, or third-party libraries. The hero room illustration is decorative; the project card and gallery use renders from the Abandoned Hospital asset pack. Gallery images link to full-size previews.
 
 ## GitHub Pages
 

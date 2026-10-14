@@ -89,19 +89,17 @@
         </div>
 
         <article class="project-card">
-          <div class="project-visual" aria-label="Abstract study of modular hospital architecture">
-            <div class="project-grid" aria-hidden="true"></div>
-            <div class="project-frame" aria-hidden="true">
-              <div class="frame-wall wall-one"></div>
-              <div class="frame-wall wall-two"></div>
-              <div class="frame-floor"></div>
-              <div class="frame-opening"></div>
-              <div class="frame-cross cross-one"></div>
-              <div class="frame-cross cross-two"></div>
-            </div>
-            <span class="visual-stamp">ENVIRONMENT STUDY<br />POLIDIV / 01</span>
-            <span class="visual-number">01</span>
-          </div>
+          <figure class="project-visual">
+            <img
+              src="assets/abandoned-hospital-demo-scene.png"
+              alt="Abandoned Hospital Unity scene with cracked modular walls, a hospital bed, wheelchair, operating table, and medical waste bin."
+              width="1600"
+              height="900"
+              fetchpriority="high"
+            />
+            <figcaption class="visual-stamp">ABANDONED HOSPITAL<br />DEMO SCENE</figcaption>
+            <span class="visual-number" aria-hidden="true">01</span>
+          </figure>
           <div class="project-info">
             <div class="project-meta"><span>MODULAR ENVIRONMENT</span><span>UNITY</span></div>
             <h3>Abandoned Hospital</h3>
@@ -119,7 +117,67 @@
           </div>
         </article>
 
-        <p class="visual-note">The geometric artwork on this page is decorative; it is not a render of the asset pack.</p>
+        <p class="visual-note">The hero illustration is decorative; the project previews below show renders from the actual asset pack.</p>
+
+        <section class="image-gallery" aria-labelledby="gallery-title">
+          <div class="gallery-heading">
+            <div>
+              <p class="eyebrow">ASSET PREVIEWS</p>
+              <h3 id="gallery-title">Inside the environment kit.</h3>
+            </div>
+            <p>Rendered views of the modular architecture, medical props, and Unity LOD workflow.</p>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-card">
+              <a href="assets/abandoned-hospital-architecture.png" target="_blank" rel="noopener noreferrer" aria-label="Open the architecture and environment preview at full size">
+                <img
+                  src="assets/abandoned-hospital-architecture.png"
+                  alt="Rendered previews of wall panels, door frames, wall corners, windows, floor tiles, pedestals, and light fixtures in four variants."
+                  width="1389"
+                  height="1918"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <figcaption>
+                <span><strong>Architecture &amp; environment</strong><small>Modular pieces with four material variants.</small></span>
+                <span class="gallery-index">01 / 03</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <a href="assets/abandoned-hospital-medical-props.png" target="_blank" rel="noopener noreferrer" aria-label="Open the medical props preview at full size">
+                <img
+                  src="assets/abandoned-hospital-medical-props.png"
+                  alt="Hospital beds, wheelchairs, operating tables, IV stands, lockers, and biohazard bins, each shown in four variants."
+                  width="1389"
+                  height="1918"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <figcaption>
+                <span><strong>Medical props</strong><small>Production-ready pieces for hospital scenes.</small></span>
+                <span class="gallery-index">02 / 03</span>
+              </figcaption>
+            </figure>
+            <figure class="gallery-card gallery-wide">
+              <a href="assets/abandoned-hospital-lod-workflow.png" target="_blank" rel="noopener noreferrer" aria-label="Open the LOD workflow preview at full size">
+                <img
+                  src="assets/abandoned-hospital-lod-workflow.png"
+                  alt="The same hospital bed at three runtime detail levels: LOD 0, LOD 1, and LOD 2."
+                  width="1512"
+                  height="590"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <figcaption>
+                <span><strong>Unity LOD workflow</strong><small>One hospital bed shown at three runtime detail levels.</small></span>
+                <span class="gallery-index">03 / 03</span>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
       </section>
 
       <section class="approach-section" id="approach" aria-labelledby="approach-title">
